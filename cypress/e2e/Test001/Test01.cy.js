@@ -11,7 +11,7 @@ describe("Failing to add a new computer with invalid data",()=>{
     it("Adding a computer with a blank name",()=>{
          Dom.add_new().click()
 
-        //Filling in the required forms
+        //Filling in the required formss
 
         Dom.introduce().type("2022-01-01");
         Dom.discontinued().type("2023-01-02")
